@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="operations.js"></script>
+</head>
+<body>
+    <div class="calc_area">
+        <h1>Calculator</h1>
+        <input type="text" name="" id="text1"> <br>
+        <button onclick="clear_text()">AC</button>
+        <button onclick="backspace()"><</button>
+        <button onclick="insert('/')">/</button>
+        <button onclick="insert('*')">X</button>
+        <br>
+        <button onclick="insert(7)">7</button>
+        <button onclick="insert(8)">8</button>
+        <button onclick="insert(9)">9</button>
+        <button onclick="insert('+')">+</button>
+        <br>
+        <button onclick="insert(4)">4</button>
+        <button onclick="insert(5)">5</button>
+        <button onclick="insert(6)">6</button>
+        <button onclick="insert('-')">-</button>
+        <br>
+        <button onclick="insert(1)">1</button>
+        <button onclick="insert(2)">2</button>
+        <button onclick="insert(3)">3</button>
+        <button onclick="compute()">=</button>
+        <br>
+        <button onclick="insert('(')">(</button>
+        <button onclick="insert(0)">0</button>
+        <button onclick="insert(')')">)</button>
+        <button onclick="insert('.')">.</button>
+        <br>
+    </div>
+</body>
+</html>
